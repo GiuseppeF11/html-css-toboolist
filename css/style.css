@@ -38,18 +38,20 @@
 
  */
 
+ /* 
+   Sezione 1 -ADD
+ */
  .contenitore-add {
    background-color: white;
    border-radius: 5px;
    width: 60%;
    height: 50px;
-   margin: 50px auto;
+   margin: 20px auto 2px;
  }
 
 
 .add {
    display: inline-block;
-   border: 1px solid lightgrey;
    border-radius: 5px;
    padding: 5px;
    margin-top: 10px;
@@ -65,6 +67,87 @@
    color: grey;
 }
 
-#botton-ad {
+#button-ad {
    margin-left: 50px;
+}
+
+/* 
+   Sezione 2 - LIST
+*/
+
+.contenitore-list {
+   background-color: white;
+   border-radius: 5px;
+   width: 60%;
+   height: 800px;
+   margin: auto;
+}
+
+.list-senior {
+   margin-left: 70px;
+   padding-top: 30px;
+   list-style: none;
+}
+
+.list-junior {
+   margin-bottom: 20px ;
+   padding-left: 20px;
+   list-style: none;
+}
+
+.etichetta {
+   padding: 3px 10px;
+   border-radius: 30px;
+   color: white;
+   text-decoration: none;
+}
+
+.editorial {
+   background-color: #47ADF1;
+}
+
+.q1-goals {
+   background-color: #9B71E3;
+}
+
+.recruiting {
+   background-color: #64C0A9;
+}
+
+.mobile {
+   background-color: #F19E33;
+}
+
+.website {
+   background-color: #D7619F;
+}
+
+.sales {
+   background-color: #AFC825;
+}
+
+#check {
+   color: rgb(57, 142, 58);
+   border: 2px solid rgb(57, 142, 58) ;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   border-radius: 50px;
+   line-height: 18px;
+   text-align: center;
+}
+
+#cross {
+   color: red;
+   border: 2px solid red;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   border-radius: 50px;
+   line-height: 18px;
+   text-align: center;
+}
+
+.riga-lista {
+   padding-top: 20px;
 }

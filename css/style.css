@@ -29,6 +29,7 @@
  #intestazione, #logo {
    display: inline-block;
    vertical-align: middle;
+   font-family: 'Roboto', sans-serif;
  }
 
  /* 
@@ -37,5 +38,33 @@
 
  */
 
+ .contenitore-add {
+   background-color: white;
+   border-radius: 5px;
+   width: 60%;
+   height: 50px;
+   margin: 50px auto;
+ }
 
 
+.add {
+   display: inline-block;
+   border: 1px solid lightgrey;
+   border-radius: 5px;
+   padding: 5px;
+   margin-top: 10px;
+}
+
+.task {
+   background-color: #47ADF1;
+   color: white;
+}
+
+.section {
+   background-color: white;
+   color: grey;
+}
+
+#botton-ad {
+   margin-left: 50px;
+}

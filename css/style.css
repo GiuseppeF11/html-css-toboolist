@@ -41,6 +41,11 @@
  /* 
    Sezione 1 -ADD
  */
+
+ main{
+   margin: 0 auto;
+   width: 80%;
+ }
  .contenitore-add {
    background-color: white;
    border-radius: 5px;
@@ -126,26 +131,24 @@
    background-color: #AFC825;
 }
 
-#check {
-   color: rgb(57, 142, 58);
-   border: 2px solid rgb(57, 142, 58) ;
+.span {
    display: inline-block;
+   font-size: 18px;
    width: 20px;
    height: 20px;
-   border-radius: 50px;
+   border-radius: 50%;
    line-height: 18px;
    text-align: center;
+   border: 1px solid;
+}
+.check {
+   color: rgb(57, 142, 58);
+   border-color: rgb(57, 142, 58) ;
 }
 
-#cross {
+.cross {
    color: red;
-   border: 2px solid red;
-   display: inline-block;
-   width: 20px;
-   height: 20px;
-   border-radius: 50px;
-   line-height: 18px;
-   text-align: center;
+   border-color: solid red;
 }
 
 .riga-lista {
